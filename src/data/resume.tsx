@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, FileText, Download } from "lucide-react";
 
 export const DATA = {
   name: "Hitesh Raj",
@@ -79,7 +79,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Resume" },
+    { href: "/cv.pdf", icon: Download, label: "Resume" },
   ],
   contact: {
     email: "mhiteshm963@gmail.com",
@@ -116,7 +116,7 @@ export const DATA = {
       badges: [],
       location: "Bengaluru, Karnataka, India",
       title: "AI Intern",
-      logoUrl: "",
+      logoUrl: "/Group1.png",
       start: "November 2023",
       end: "December 2023",
       description:
@@ -128,7 +128,7 @@ export const DATA = {
       badges: [],
       location: "Bengaluru, Karnataka, India",
       title: "Cloud Engineer & Web Developer",
-      logoUrl: "",
+      logoUrl: "/Group2.png",
       start: "March 2023",
       end: "August 2023",
       description:
@@ -140,7 +140,7 @@ export const DATA = {
       badges: [],
       location: "Bengaluru, Karnataka, India",
       title: "Strategic Business Analyst",
-      logoUrl: "",
+      logoUrl: "/Group3.png",
       start: "June 2022",
       end: "December 2022",
       description:
@@ -152,7 +152,7 @@ export const DATA = {
       badges: [],
       location: "Bengaluru, Karnataka, India",
       title: "Business Development Executive",
-      logoUrl: "",
+      logoUrl: "/Group3.png",
       start: "June 2022",
       end: "December 2022",
       description:
@@ -164,7 +164,7 @@ export const DATA = {
       badges: [],
       location: "Bengaluru, Karnataka, India",
       title: "Digital Marketing Specialist",
-      logoUrl: "",
+      logoUrl: "/Group4.png",
       start: "January 2022",
       end: "March 2022",
       description:
