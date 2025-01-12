@@ -79,7 +79,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/blog", icon: NotebookIcon, label: "Resume" },
   ],
   contact: {
     email: "mhiteshm963@gmail.com",
@@ -96,13 +96,6 @@ export const DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/hitesh-m-08456423b/",
         icon: Icons.linkedin,
-
-        navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
 
         navbar: true,
       },
